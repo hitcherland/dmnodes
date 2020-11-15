@@ -1,0 +1,17 @@
+{
+    "name": "noding",
+    "version": "0.0.1",
+    "description": "node tool for gms",
+    "scripts": {
+        "build": "npx webpack",
+        "watch": "npx webpack --watch"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^4.5.0",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0"
+    },
+    "dependencies": {
+        "d3": "^6.2.0"
+    }
+}
